@@ -24,7 +24,7 @@ app.use(logger("short"));
 //   res.end("Secret info: the password is 'nothing'!");
 // });
 app.use((req, res) => {
-  res.writeHead(200, { "Content-type": "text/plain" });
+  res.writeHead(200,{ "Content-type": "text/plain" });
   res.end("Hello world!");
 });
 
