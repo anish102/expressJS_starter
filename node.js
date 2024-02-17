@@ -4,7 +4,7 @@ let reqHandler = (req, res) => {
   if (req.url === "/") {
     res.end("Welcome to home page!");
   } else if (req.url === "/about") {
-    res.end("This is about page!");
+    res.end("This is an about page!");
   } else {
     ("File not found!");
   }
